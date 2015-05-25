@@ -1,4 +1,4 @@
-Git Commands used till now. [Along with git status, git diff]
+Vikas Git Commands used till now. [Along with git status, git diff]
 -------------------------------------------
 1.Create a Repository and Push it on Github
 -------------------------------------------
