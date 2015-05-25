@@ -1,0 +1,51 @@
+Git Commands used till now. [Along with git status, git diff]
+-------------------------------------------
+1.Create a Repository and Push it on Github
+-------------------------------------------
+
+In the directory where to create repo
+git init SampleProject
+Change directory to SampleProject
+
+Can remove global below to set for the current repo only.
+git config --global user.email "vv@gmail.com"
+git config --global user.name "v"
+
+* Add a file in folder
+OR
+* Put files in folder  
+
+----------FOR A SINGLE FILE------------------------------------
+
+git add file.txt 
+git commit -m "Committed"
+
+-------------OR FOR MULTIPLE FILES-----------------------------
+Add the files.This command updates the index using the current content found in the 
+working tree, to prepare the content staged for the next commit.
+
+git commit -a -m "My First Commit" 
+
+OR git commit -m "change some files" file1 file2
+-------------------------------------------------------------
+
+Create a repo in GitHub, same named.
+git remote add origin https://github.com/vrk37/SampleProject.git
+git push -u origin master
+
+--------------------------------------------------
+2. Update the Repository and then Push to Github
+--------------------------------------------------
+Modify the files
+Go to the directory where the file is.
+git commit -a -m "My Second Commit"
+git push -u origin master
+
+----------------------------------------------------
+3. Clone a Repository from Github into a New Folder
+----------------------------------------------------
+
+Move to the new folder
+git clone https://github.com/vrk37/SampleProject
+
+The entire repo will be cloned (so, no need to create a folder with the repo's name).
